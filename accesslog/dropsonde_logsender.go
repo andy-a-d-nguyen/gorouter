@@ -11,7 +11,7 @@ import (
 	"github.com/cloudfoundry/dropsonde"
 	"github.com/cloudfoundry/dropsonde/emitter"
 	"github.com/cloudfoundry/sonde-go/events"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 )
 

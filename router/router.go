@@ -26,7 +26,7 @@ import (
 	"code.cloudfoundry.org/gorouter/varz"
 	"github.com/armon/go-proxyproto"
 	"github.com/nats-io/nats.go"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 var DrainTimeout = errors.New("router: Drain timeout")

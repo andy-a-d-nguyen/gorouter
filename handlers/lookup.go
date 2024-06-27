@@ -13,8 +13,8 @@ import (
 	"code.cloudfoundry.org/gorouter/metrics"
 	"code.cloudfoundry.org/gorouter/registry"
 	"code.cloudfoundry.org/gorouter/route"
-	"github.com/uber-go/zap"
 	"github.com/urfave/negroni/v3"
+	"go.uber.org/zap"
 )
 
 const CfAppInstance = "X-CF-APP-INSTANCE"

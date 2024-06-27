@@ -14,8 +14,8 @@ import (
 	"code.cloudfoundry.org/gorouter/common/health"
 
 	"github.com/cloudfoundry/dropsonde"
-	"github.com/uber-go/zap"
 	"github.com/urfave/negroni/v3"
+	"go.uber.org/zap"
 
 	"code.cloudfoundry.org/gorouter/accesslog"
 	router_http "code.cloudfoundry.org/gorouter/common/http"

@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"code.cloudfoundry.org/gorouter/logger"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 type ErrorWriter interface {

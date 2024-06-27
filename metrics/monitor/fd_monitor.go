@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/cloudfoundry/dropsonde/metrics"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 
 	"code.cloudfoundry.org/gorouter/logger"
 )

@@ -11,7 +11,7 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 var _ = Describe("LagerAdapter", func() {

@@ -16,7 +16,7 @@ import (
 	"code.cloudfoundry.org/routing-api/models"
 	"code.cloudfoundry.org/routing-api/uaaclient"
 	"github.com/cloudfoundry/dropsonde/metrics"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 	"golang.org/x/oauth2"
 )
 

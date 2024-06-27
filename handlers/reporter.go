@@ -9,8 +9,8 @@ import (
 	"code.cloudfoundry.org/gorouter/proxy/utils"
 
 	"code.cloudfoundry.org/gorouter/logger"
-	"github.com/uber-go/zap"
 	"github.com/urfave/negroni/v3"
+	"go.uber.org/zap"
 )
 
 type reporterHandler struct {

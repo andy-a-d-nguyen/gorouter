@@ -18,7 +18,7 @@ import (
 	"code.cloudfoundry.org/routing-api/models"
 
 	"github.com/nats-io/nats.go"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 type RegistryMessage struct {

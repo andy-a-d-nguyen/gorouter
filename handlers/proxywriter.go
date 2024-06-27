@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"code.cloudfoundry.org/gorouter/logger"
-	"github.com/uber-go/zap"
 	"github.com/urfave/negroni/v3"
+	"go.uber.org/zap"
 
 	"code.cloudfoundry.org/gorouter/proxy/utils"
 )

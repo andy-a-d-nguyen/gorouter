@@ -8,7 +8,7 @@ import (
 	"code.cloudfoundry.org/lager/v3"
 	"github.com/openzipkin/zipkin-go/idgenerator"
 	"github.com/openzipkin/zipkin-go/model"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 const (

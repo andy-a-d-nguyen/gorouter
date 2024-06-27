@@ -5,7 +5,7 @@ import (
 	"code.cloudfoundry.org/gorouter/handlers"
 	"code.cloudfoundry.org/gorouter/logger"
 	"fmt"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 	"net"
 	"net/http"
 	"net/http/httptest"

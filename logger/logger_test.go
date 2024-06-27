@@ -9,7 +9,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 // Zap defaults to Info Level

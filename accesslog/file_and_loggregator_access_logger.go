@@ -5,7 +5,7 @@ import (
 	"io"
 	"log/syslog"
 
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 
 	"code.cloudfoundry.org/gorouter/accesslog/schema"
 	"code.cloudfoundry.org/gorouter/config"

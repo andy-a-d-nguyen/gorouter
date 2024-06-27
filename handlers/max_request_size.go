@@ -7,7 +7,7 @@ import (
 	router_http "code.cloudfoundry.org/gorouter/common/http"
 	"code.cloudfoundry.org/gorouter/config"
 	"code.cloudfoundry.org/gorouter/logger"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 type MaxRequestSize struct {

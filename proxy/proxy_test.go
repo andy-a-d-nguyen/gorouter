@@ -28,7 +28,7 @@ import (
 	"github.com/cloudfoundry/sonde-go/events"
 	uuid "github.com/nu7hatch/gouuid"
 	"github.com/openzipkin/zipkin-go/propagation/b3"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 
 	router_http "code.cloudfoundry.org/gorouter/common/http"
 	"code.cloudfoundry.org/gorouter/config"

@@ -19,7 +19,7 @@ import (
 	"code.cloudfoundry.org/gorouter/test_util"
 	"code.cloudfoundry.org/localip"
 	"github.com/nats-io/nats.go"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 const RefreshInterval time.Duration = time.Second * 1

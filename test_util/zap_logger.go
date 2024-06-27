@@ -8,7 +8,7 @@ import (
 	"code.cloudfoundry.org/gorouter/logger"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega/gbytes"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 // We add 1 to zap's default values to match our level definitions

@@ -41,7 +41,7 @@ import (
 	"github.com/tedsuo/ifrit"
 	"github.com/tedsuo/ifrit/grouper"
 	"github.com/tedsuo/ifrit/sigmon"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 var (

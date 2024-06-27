@@ -3,7 +3,7 @@ package logger
 import (
 	"time"
 
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 // Logger is the zap.Logger interface with additional Session methods.

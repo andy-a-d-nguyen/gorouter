@@ -11,7 +11,7 @@ import (
 	"go.step.sm/crypto/pemutil"
 
 	"code.cloudfoundry.org/gorouter/logger"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 	"gopkg.in/yaml.v2"
 
 	"runtime"

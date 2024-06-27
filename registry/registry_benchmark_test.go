@@ -12,7 +12,7 @@ import (
 	"github.com/cloudfoundry/dropsonde/metricbatcher"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega/gbytes"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 
 	"code.cloudfoundry.org/gorouter/config"
 	"code.cloudfoundry.org/gorouter/logger"

@@ -13,7 +13,7 @@ import (
 	"code.cloudfoundry.org/gorouter/proxy/utils"
 	"code.cloudfoundry.org/gorouter/route"
 	gouuid "github.com/nu7hatch/gouuid"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 
 	"github.com/openzipkin/zipkin-go/idgenerator"
 	"github.com/openzipkin/zipkin-go/model"
